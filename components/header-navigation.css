@@ -53,7 +53,9 @@
 }
 .header-navigation-btn-group {
   gap: 12px;
-  width: auto;
+  width: 100%;
+  align-self: center;
+  justify-content: flex-end;
 }
 .header-navigation-login {
   text-decoration: none;
