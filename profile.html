@@ -33,6 +33,11 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
       data-tag="font"
     />
+    <style>
+      ::-webkit-input-placeholder {
+        color: #667085;
+      }
+    </style>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -87,10 +92,18 @@
                 data-thq="thq-navbar-btn-group"
                 class="header-navigation-btn-group navbar_menu-right"
               >
-                <button class="TextmdSemibold button-tertiary-gray">
+                <a
+                  href="https://socious.io/"
+                  class="header-navigation-login TextmdSemibold button-tertiary-gray"
+                >
                   Log in
-                </button>
-                <button class="TextmdSemibold button">Sign up</button>
+                </a>
+                <a
+                  href="https://socious.io/"
+                  class="header-navigation-register TextmdSemibold button"
+                >
+                  Sign up
+                </a>
               </div>
               <div
                 data-thq="thq-burger-menu"
@@ -221,70 +234,58 @@
                       <span class="profile-text03 TextsmMedium">
                         <span>Username</span>
                       </span>
-                      <div class="profile-input">
-                        <div class="profile-content1">
-                          <span class="profile-text05 TextmdRegular">
-                            <span>@</span>
-                            <span>username</span>
-                          </span>
-                        </div>
-                      </div>
+                      <input
+                        type="text"
+                        placeholder="@username"
+                        class="profile-textinput input TextmdRegular"
+                      />
                     </div>
                   </div>
                   <div class="profile-inputfield1">
                     <div class="profile-inputwithlabel1">
-                      <span class="profile-text08 TextsmMedium">
+                      <span class="profile-text05 TextsmMedium">
                         <span>First Name (optional)</span>
                       </span>
-                      <div class="profile-input1">
-                        <div class="profile-content2">
-                          <span class="profile-text10 TextmdRegular">
-                            <span>Enter your first name</span>
-                          </span>
-                        </div>
-                      </div>
+                      <input
+                        type="text"
+                        placeholder="Enter your first name"
+                        class="profile-textinput1 input TextmdRegular"
+                      />
                     </div>
                   </div>
                   <div class="profile-inputfield2">
                     <div class="profile-inputwithlabel2">
-                      <span class="profile-text12 TextsmMedium">
+                      <span class="profile-text07 TextsmMedium">
                         <span>Last Name (optional)</span>
                       </span>
-                      <div class="profile-input2">
-                        <div class="profile-content3">
-                          <span class="profile-text14 TextmdRegular">
-                            <span>Enter your last name</span>
-                          </span>
-                        </div>
-                      </div>
+                      <input
+                        type="text"
+                        placeholder="Enter your last name"
+                        class="profile-textinput2 input TextmdRegular"
+                      />
                     </div>
                   </div>
                   <div class="profile-inputdropdown">
                     <div class="profile-inputwithlabel3">
-                      <span class="profile-text16 TextsmMedium">
+                      <span class="profile-text09 TextsmMedium">
                         <span>Location (optional)</span>
                       </span>
-                      <div class="profile-input3">
-                        <div class="profile-content4">
-                          <span class="profile-text18 TextmdRegular">
-                            <span>Country</span>
-                          </span>
-                        </div>
-                        <img
-                          src="public/external/chevrondowni763-9vk.svg"
-                          alt="chevrondownI763"
-                          class="profile-chevrondown"
-                        />
-                      </div>
+                      <select class="profile-select input">
+                        <option value="Country" selected="">Country</option>
+                        <option value="Japan">Japan</option>
+                        <option value="New Option">New Option</option>
+                      </select>
                     </div>
                   </div>
                 </div>
                 <div class="profile-actions">
-                  <button class="profile-button TextmdSemibold button">
-                    <span class="profile-text20 TextmdSemibold4">
-                      <span>Continue</span>
-                    </span>
-                  </button>
+                  <div class="button-container button-root-class-name">
+                    <button class="button-button TextmdSemibold button">
+                      <span class="button-text TextmdSemibold4">
+                        <span>Continue</span>
+                      </span>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

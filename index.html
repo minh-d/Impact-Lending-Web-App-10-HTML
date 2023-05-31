@@ -32,6 +32,11 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
       data-tag="font"
     />
+    <style>
+      ::-webkit-input-placeholder {
+        color: #667085;
+      }
+    </style>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -86,10 +91,18 @@
                 data-thq="thq-navbar-btn-group"
                 class="header-navigation-btn-group navbar_menu-right"
               >
-                <button class="TextmdSemibold button-tertiary-gray">
+                <a
+                  href="https://socious.io/"
+                  class="header-navigation-login TextmdSemibold button-tertiary-gray"
+                >
                   Log in
-                </button>
-                <button class="TextmdSemibold button">Sign up</button>
+                </a>
+                <a
+                  href="https://socious.io/"
+                  class="header-navigation-register TextmdSemibold button"
+                >
+                  Sign up
+                </a>
               </div>
               <div
                 data-thq="thq-burger-menu"
@@ -221,7 +234,7 @@
                     <span>Don’t have an account?</span>
                   </span>
                   <a href="https://socious.io/" class="login-button1">
-                    <span class="login-text7 TextsmSemibold">
+                    <span class="login-text7 TextsmSemibold button-link">
                       <span>Sign up</span>
                     </span>
                   </a>

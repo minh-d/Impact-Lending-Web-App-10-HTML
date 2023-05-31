@@ -59,6 +59,7 @@
 }
 .button {
   color: var(--dl-color-base-white);
+  cursor: pointer;
   display: inline-block;
   padding: 10px 18px;
   line-height: 24px;
@@ -70,6 +71,7 @@
 }
 .button-secondary-gray {
   color: var(--dl-color-gray-700);
+  cursor: pointer;
   display: inline-block;
   padding: 10px 18px;
   line-height: 24px;
@@ -81,6 +83,7 @@
 }
 .button-tertiary-gray {
   color: var(--dl-color-gray-600);
+  cursor: pointer;
   display: flex;
   padding: 10px 18px;
   overflow: hidden;
@@ -93,12 +96,19 @@
   justify-content: center;
 }
 .input {
-  color: var(--dl-color-gray-black);
+  gap: 8px;
+  color: var(--dl-color-gray-500);
   cursor: auto;
-  padding: 0.5rem 1rem;
-  border-color: var(--dl-color-gray-black);
+  display: flex;
+  padding: 10px 14px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: var(--dl-color-gray-300);
   border-width: 1px;
-  border-radius: 4px;
+  border-radius: 8px;
   background-color: var(--dl-color-gray-white);
 }
 .textarea {
@@ -290,6 +300,28 @@
   justify-content: center;
   background-color: rgba(93, 74, 238, 1);
 }
+.button-link {
+  color: var(--dl-color-primary-700);
+  cursor: pointer;
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.input-new {
+  gap: 8px;
+  display: flex;
+  padding: 10px 14px;
+  overflow: hidden;
+  align-self: stretch;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: var(--dl-color-gray-300);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: var(--dl-color-base-white);
+}
 .TextlgSemibold {
   font-size: 18px;
   font-family: Inter;
@@ -308,6 +340,13 @@
   font-style: normal;
   font-family: Inter;
   font-weight: 400px;
+  font-stretch: normal;
+}
+.TextmdSemibold4 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
   font-stretch: normal;
 }
 .TextsmSemibold2 {
@@ -345,6 +384,13 @@
   font-weight: 700px;
   font-stretch: normal;
 }
+.TextmdRegular5 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
 .TextlgSemibold2 {
   font-size: 18px;
   font-style: normal;
@@ -358,6 +404,13 @@
   font-family: Inter;
   font-weight: 400px;
   line-height: 20px;
+}
+.TextmdRegular4 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
 }
 .TextmdSemibold2 {
   font-size: 16px;
@@ -377,6 +430,11 @@
   font-size: 14px;
   font-family: Inter;
   font-weight: 600;
+}
+.TextsmMedium {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 500;
 }
 .DisplayxsSemibold3 {
   font-size: 24px;
@@ -409,6 +467,13 @@
   font-weight: 400px;
   font-stretch: normal;
 }
+.TextsmMedium1 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
 .TextsmSemibold1 {
   font-size: 14px;
   font-style: normal;
@@ -424,6 +489,11 @@
   text-transform: none;
   text-decoration: none;
 }
+.DisplaymdSemibold {
+  font-size: 36px;
+  font-family: Inter;
+  font-weight: 600;
+}
 .TextmdSemibold3 {
   font-size: 16px;
   font-style: normal;
@@ -438,6 +508,13 @@
   line-height: 1.15;
   text-transform: none;
   text-decoration: none;
+}
+.TextmdSemibold5 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
 }
 .DisplayxsSemibold2 {
   font-size: 24px;
@@ -460,53 +537,8 @@
   font-weight: 700px;
   font-stretch: normal;
 }
-.DisplaymdSemibold {
-  font-size: 36px;
-  font-family: Inter;
-  font-weight: 600;
-}
-.TextmdRegular4 {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.TextsmMedium {
-  font-size: 14px;
-  font-family: Inter;
-  font-weight: 500;
-}
-.TextmdSemibold4 {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 700px;
-  font-stretch: normal;
-}
 .DisplaymdSemibold1 {
   font-size: 36px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 700px;
-  font-stretch: normal;
-}
-.TextmdRegular5 {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.TextsmMedium1 {
-  font-size: 14px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 500px;
-  font-stretch: normal;
-}
-.TextmdSemibold5 {
-  font-size: 16px;
   font-style: normal;
   font-family: Inter;
   font-weight: 700px;

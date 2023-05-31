@@ -55,6 +55,12 @@
   gap: 12px;
   width: auto;
 }
+.header-navigation-login {
+  text-decoration: none;
+}
+.header-navigation-register {
+  text-decoration: none;
+}
 .header-navigation-nav-menu-button {
   display: none;
   align-items: center;

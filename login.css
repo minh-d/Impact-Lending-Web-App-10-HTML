@@ -55,6 +55,12 @@
   gap: 12px;
   width: auto;
 }
+.header-navigation-login {
+  text-decoration: none;
+}
+.header-navigation-register {
+  text-decoration: none;
+}
 .header-navigation-nav-menu-button {
   display: none;
   align-items: center;
@@ -253,6 +259,7 @@
   overflow: hidden;
   align-self: stretch;
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+  transition: 0.3s;
   align-items: center;
   flex-shrink: 0;
   border-color: rgba(0, 74, 70, 1);
@@ -263,6 +270,10 @@
   text-decoration: none;
   background-color: var(--dl-color-primary-600);
 }
+.login-button:hover {
+  background-color: var(--dl-color-primary-700);
+}
+
 .login-text3 {
   color: var(--dl-color-base-white);
   height: auto;

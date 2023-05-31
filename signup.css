@@ -55,6 +55,12 @@
   gap: 12px;
   width: auto;
 }
+.header-navigation-login {
+  text-decoration: none;
+}
+.header-navigation-register {
+  text-decoration: none;
+}
 .header-navigation-nav-menu-button {
   display: none;
   align-items: center;
@@ -304,12 +310,6 @@
   padding-bottom: 0px;
   justify-content: center;
   text-decoration: none;
-}
-.signup-text4 {
-  color: var(--dl-color-primary-700);
-  height: auto;
-  text-align: left;
-  line-height: 20px;
 }
 @media(max-width: 767px) {
   .signup-container {
