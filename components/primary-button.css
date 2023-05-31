@@ -1,0 +1,16 @@
+.primary-button-container {
+  display: flex;
+  position: relative;
+}
+.primary-button-text {
+  color: var(--dl-color-base-white);
+  height: auto;
+  font-style: normal;
+  text-align: left;
+  line-height: 24px;
+  font-stretch: normal;
+}
+.primary-button-root-class-name {
+  width: auto;
+  align-self: stretch;
+}
