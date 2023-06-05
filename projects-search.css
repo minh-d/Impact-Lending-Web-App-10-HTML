@@ -407,6 +407,9 @@
 .projects-search-buttongroup {
   display: flex;
   align-items: flex-start;
+  border-color: var(--dl-color-gray-300);
+  border-width: 1px;
+  border-radius: 8px;
   justify-content: space-between;
 }
 .projects-search-frame-buttongroupbase {
@@ -414,6 +417,7 @@
   display: flex;
   padding: 10px 16px;
   align-items: center;
+  border-radius: 8px;
   justify-content: center;
   background-color: var(--dl-color-gray-50);
 }
@@ -431,6 +435,9 @@
 .projects-search-buttongroup1 {
   display: flex;
   align-items: flex-start;
+  border-color: var(--dl-color-gray-300);
+  border-width: 1px;
+  border-radius: 8px;
   justify-content: space-between;
 }
 .projects-search-frame-buttongroupbase1 {
@@ -438,11 +445,16 @@
   display: flex;
   padding: 10px 12px;
   align-items: center;
-  border-color: rgba(207, 212, 220, 1);
+  border-color: var(--dl-color-gray-300);
   border-style: solid;
   border-width: 0 1px 0 0;
+  border-radius: var(--dl-radius-radius-radius4);
   justify-content: center;
   background-color: var(--dl-color-gray-50);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 0;
 }
 .projects-search-list {
   width: 20px;
@@ -453,8 +465,13 @@
   display: flex;
   padding: 10px 12px;
   align-items: center;
+  border-radius: var(--dl-radius-radius-radius4);
   justify-content: center;
   background-color: var(--dl-color-base-white);
+  border-top-left-radius: 0;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 8px;
 }
 .projects-search-markerpin02 {
   width: 20px;
@@ -650,18 +667,20 @@
   align-items: flex-start;
   flex-shrink: 0;
   border-radius: 8px;
+  background-color: var(--dl-color-gray-200);
 }
 .projects-search-progress1 {
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
+  width: 20%;
   height: 8px;
   display: flex;
   position: relative;
   flex-grow: 1;
+  max-width: 20%;
   align-self: stretch;
   align-items: flex-start;
   flex-shrink: 0;
   border-radius: 8px;
+  background-color: var(--dl-color-primary-600);
 }
 .projects-search-detailswrap1 {
   gap: 12px;
