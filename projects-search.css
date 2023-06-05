@@ -502,6 +502,19 @@
   align-self: stretch;
   align-items: flex-start;
 }
+.projects-search-image1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+}
+.projects-search-image2 {
+  width: 100%;
+  object-fit: cover;
+}
 .projects-search-overlay {
   top: 0px;
   left: 0px;
@@ -650,21 +663,17 @@
   flex-shrink: 0;
   border-radius: 8px;
 }
-.projects-search-background {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 8px;
-  position: absolute;
-  border-radius: 4px;
-}
 .projects-search-progress1 {
-  top: 0px;
-  left: 0px;
-  width: 20%;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 8px;
-  position: absolute;
-  border-radius: 4px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
 }
 .projects-search-detailswrap1 {
   gap: 12px;
@@ -858,6 +867,9 @@
   height: 20px;
 }
 @media(max-width: 1600px) {
+  .projects-search-image2 {
+    align-self: center;
+  }
   .projects-search-content2 {
     align-self: stretch;
   }
@@ -875,7 +887,7 @@
     align-self: stretch;
   }
   .projects-search-textandsupportingtext1 {
-    width: 100%;
+    width: auto;
     align-self: stretch;
   }
   .projects-search-text05 {
@@ -898,6 +910,16 @@
   }
   .projects-search-progressbar1 {
     align-self: stretch;
+    background-color: var(--dl-color-gray-200);
+  }
+  .projects-search-progress1 {
+    width: 20%;
+    max-width: 20%;
+    align-self: stretch;
+    border-color: var(--dl-color-primary-600);
+    border-style: solid;
+    border-width: 0px;
+    background-color: var(--dl-color-primary-600);
   }
   .projects-search-detailswrap1 {
     width: 100%;
@@ -928,8 +950,10 @@
     width: auto;
   }
   .projects-search-overlay {
+    top: 0px;
+    left: 0px;
     width: 100%;
-    position: static;
+    position: absolute;
   }
 }
 @media(max-width: 767px) {
@@ -958,5 +982,10 @@
   }
   .projects-search-badge {
     width: auto;
+  }
+}
+@media(max-width: 479px) {
+  .projects-search-image2 {
+    height: 100%;
   }
 }

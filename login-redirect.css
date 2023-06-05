@@ -44,6 +44,11 @@
   text-align: left;
   line-height: 20px;
 }
+.login-redirect-loading {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
 .login-redirect-sv-loadinganim {
   width: 48px;
   height: 48px;
@@ -160,6 +165,13 @@
   width: 135px;
   height: 40px;
   text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .login-redirect-loading {
+    gap: 16px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }
 @media(max-width: 991px) {
   .login-redirect-sv-loadinganim {
