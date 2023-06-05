@@ -288,7 +288,14 @@
   display: flex;
   align-self: stretch;
   align-items: flex-start;
+  border-color: var(--dl-color-gray-200);
+  border-width: 1px;
   flex-direction: column;
+  padding-bottom: 20px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
 }
 .projects-search-content {
   gap: 16px;
@@ -323,11 +330,6 @@
   align-self: stretch;
   text-align: left;
   font-stretch: normal;
-}
-.projects-search-divider {
-  width: 100%;
-  height: 1px;
-  align-self: stretch;
 }
 .projects-search-section1 {
   gap: 24px;
