@@ -869,6 +869,9 @@
   line-height: 24px;
 }
 @media(max-width: 1600px) {
+  .projects-details-main {
+    gap: 20px;
+  }
   .projects-details-section6 {
     align-self: stretch;
   }
