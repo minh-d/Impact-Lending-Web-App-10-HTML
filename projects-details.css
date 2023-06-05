@@ -674,18 +674,20 @@
   align-items: flex-start;
   flex-shrink: 0;
   border-radius: 8px;
+  background-color: var(--dl-color-gray-200);
 }
 .projects-details-progress1 {
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
+  width: 20%;
   height: 8px;
   display: flex;
   position: relative;
   flex-grow: 1;
+  max-width: 20%;
   align-self: stretch;
   align-items: flex-start;
   flex-shrink: 0;
   border-radius: 8px;
+  background-color: var(--dl-color-primary-600);
 }
 .projects-details-detailswrap1 {
   gap: 12px;
