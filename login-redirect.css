@@ -47,18 +47,22 @@
 .login-redirect-sv-loadinganim {
   width: 48px;
   height: 48px;
+  align-self: center;
 }
 .login-redirect-text02 {
   color: var(--dl-color-gray-600);
   height: auto;
   align-self: stretch;
-  text-align: left;
+  text-align: center;
 }
 .login-redirect-buttonclose-x {
+  top: 12px;
+  right: 12px;
   display: flex;
   padding: 10px;
   z-index: 1;
   overflow: hidden;
+  position: absolute;
   align-items: center;
   border-radius: 8px;
   justify-content: center;
@@ -66,6 +70,9 @@
 .login-redirect-xclose {
   width: 24px;
   height: 24px;
+}
+.login-redirect-frame-modalactions {
+  padding-bottom: 24px;
 }
 .login-redirect-socialbutton {
   gap: 12px;
@@ -98,12 +105,12 @@
   padding: 24px 0 0;
   align-self: stretch;
   align-items: center;
+  border-color: var(--dl-color-gray-200);
+  border-width: 1px;
   flex-direction: column;
-}
-.login-redirect-dividerwrap {
-  width: 343px;
-  height: 17px;
-  align-self: stretch;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
 }
 .login-redirect-content {
   gap: 12px;
@@ -125,7 +132,7 @@
   background-color: var(--dl-color-gray-50);
 }
 .login-redirect-text08 {
-  color: var(--dl-color-gray-9002);
+  color: rgba(15, 23, 40, 1);
   height: auto;
   align-self: stretch;
   text-align: center;
@@ -190,8 +197,5 @@
     top: 12px;
     right: 12px;
     position: absolute;
-  }
-  .login-redirect-dividerwrap {
-    width: 100%;
   }
 }

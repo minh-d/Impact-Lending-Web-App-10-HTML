@@ -231,6 +231,15 @@
   width: auto;
   align-self: stretch;
 }
+@media(max-width: 1600px) {
+  .primary-button-text {
+    text-align: center;
+  }
+  .primary-button-root-class-name {
+    width: 100%;
+    align-self: stretch;
+  }
+}
 
 .profile-container {
   width: 100%;
@@ -273,14 +282,14 @@
   flex-direction: column;
 }
 .profile-text {
-  color: var(--dl-color-gray-9005);
+  color: rgba(15, 23, 40, 1);
   height: auto;
   align-self: stretch;
   text-align: center;
   line-height: 44px;
 }
 .profile-text01 {
-  color: var(--dl-color-gray-6003);
+  color: rgba(71, 84, 102, 1);
   height: auto;
   align-self: stretch;
   text-align: center;
@@ -316,7 +325,7 @@
   flex-direction: column;
 }
 .profile-text03 {
-  color: var(--dl-color-gray-7004);
+  color: rgba(52, 64, 83, 1);
   height: auto;
   text-align: left;
   line-height: 20px;
@@ -339,7 +348,7 @@
   flex-direction: column;
 }
 .profile-text05 {
-  color: var(--dl-color-gray-7004);
+  color: rgba(52, 64, 83, 1);
   height: auto;
   text-align: left;
   line-height: 20px;
@@ -362,7 +371,7 @@
   flex-direction: column;
 }
 .profile-text07 {
-  color: var(--dl-color-gray-7004);
+  color: rgba(52, 64, 83, 1);
   height: auto;
   text-align: left;
   line-height: 20px;
@@ -385,7 +394,7 @@
   flex-direction: column;
 }
 .profile-text09 {
-  color: var(--dl-color-gray-7004);
+  color: rgba(52, 64, 83, 1);
   height: auto;
   text-align: left;
   line-height: 20px;

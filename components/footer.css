@@ -11,11 +11,16 @@
   background-color: var(--dl-color-base-white);
 }
 .footer-text {
-  color: var(--dl-color-gray-5006);
+  color: rgba(102, 112, 132, 1);
   height: auto;
+  font-size: 16px;
   align-self: stretch;
+  font-style: normal;
   text-align: center;
+  font-family: Inter;
+  font-weight: 400px;
   line-height: 24px;
+  font-stretch: normal;
 }
 @media(max-width: 767px) {
   .footer-footer {
@@ -23,8 +28,5 @@
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 48px;
-  }
-  .footer-text {
-    color: var(--dl-color-gray-500);
   }
 }

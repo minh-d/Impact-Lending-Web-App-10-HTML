@@ -18,3 +18,12 @@
   width: auto;
   align-self: stretch;
 }
+@media(max-width: 1600px) {
+  .primary-button-text {
+    text-align: center;
+  }
+  .primary-button-root-class-name {
+    width: 100%;
+    align-self: stretch;
+  }
+}

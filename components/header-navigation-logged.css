@@ -177,6 +177,7 @@
   height: var(--dl-size-size-xsmall);
 }
 
+
 @media(max-width: 991px) {
   .header-navigation-logged-headernavigation {
     flex-direction: column;

@@ -8,11 +8,6 @@
   --dl-color-gray-700: #344054ff;
   --dl-color-gray-800: rgba(29, 40, 56, 1);
   --dl-color-gray-900: #101828ff;
-  --dl-color-gray-5006: rgba(102, 112, 132, 1);
-  --dl-color-gray-6003: rgba(71, 84, 102, 1);
-  --dl-color-gray-7004: rgba(52, 64, 83, 1);
-  --dl-color-gray-9002: rgba(15, 23, 40, 1);
-  --dl-color-gray-9005: rgba(15, 23, 40, 1);
   --dl-size-size-large: 144px;
   --dl-size-size-small: 48px;
   --dl-color-base-black: #000000ff;
@@ -20,12 +15,9 @@
   --dl-color-danger-300: #A22020;
   --dl-color-danger-500: #BF2626;
   --dl-color-danger-700: #E14747;
-  --dl-color-gray-60012: rgba(71, 84, 102, 1);
-  --dl-color-gray-70010: rgba(52, 64, 83, 1);
-  --dl-color-gray-90014: rgba(15, 23, 40, 1);
   --dl-color-gray-black: #000000;
   --dl-color-gray-white: #FFFFFF;
-  --dl-color-primary-25: rgba(0, 74, 70, 0.05000000074505806);
+  --dl-color-primary-25: #000000d;
   --dl-color-primary-50: rgba(242, 246, 246, 1);
   --dl-size-size-medium: 96px;
   --dl-size-size-xlarge: 192px;
@@ -333,13 +325,6 @@
 .primary:hover {
   background-color: var(--dl-color-primary-700);
 }
-.TextmdMedium15 {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 500px;
-  font-stretch: normal;
-}
 .TextlgSemibold {
   font-size: 18px;
   font-family: Inter;
@@ -353,40 +338,12 @@
   font-weight: 400px;
   line-height: 24px;
 }
-.TextsmRegular1 {
-  font-size: 14px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.TextlgMedium8 {
-  font-size: 18px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 500px;
-  font-stretch: normal;
-}
-.TextsmSemibold2 {
-  font-size: 14px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 700px;
-  font-stretch: normal;
-}
 .TextsmRegular {
   font-size: 14px;
   font-style: normal;
   font-family: Inter;
   font-weight: 400px;
   line-height: 20px;
-}
-.TextmdRegular17 {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 400px;
-  font-stretch: normal;
 }
 .TextsmSemibold {
   font-size: 14px;
@@ -398,13 +355,6 @@
   font-family: Inter;
   font-weight: 500;
 }
-.TextxlSemibold8 {
-  font-size: 20px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 700px;
-  font-stretch: normal;
-}
 .TextmdSemibold {
   font-size: 16px;
   font-family: Inter;
@@ -414,13 +364,6 @@
   font-size: 24px;
   font-family: Inter;
   font-weight: 600;
-}
-.TextsmMedium1 {
-  font-size: 14px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 500px;
-  font-stretch: normal;
 }
 .TextxlSemibold {
   font-size: 20px;
@@ -435,24 +378,10 @@
   text-transform: none;
   text-decoration: none;
 }
-.TextsmMedium10 {
-  font-size: 14px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 500px;
-  font-stretch: normal;
-}
 .TextlgMedium {
   font-size: 18px;
   font-family: Inter;
   font-weight: 500;
-}
-.TextsmSemibold4 {
-  font-size: 14px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 700px;
-  font-stretch: normal;
 }
 .DisplaymdSemibold {
   font-size: 36px;
@@ -474,26 +403,10 @@
   text-transform: none;
   text-decoration: none;
 }
-.TextmdMedium4 {
-  font-size: 16px;
-  font-style: normal;
+.TextxlMedium {
+  font-size: 20px;
   font-family: Inter;
-  font-weight: 500px;
-  font-stretch: normal;
-}
-.TextmdRegular24 {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 400px;
-  font-stretch: normal;
-}
-.TextmdMedium1 {
-  font-size: 16px;
-  font-style: normal;
-  font-family: Inter;
-  font-weight: 500px;
-  font-stretch: normal;
+  font-weight: 500;
 }
 @media(max-width: 991px) {
   .navbar_menu {
