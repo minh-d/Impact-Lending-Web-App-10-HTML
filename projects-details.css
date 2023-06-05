@@ -260,17 +260,22 @@
   align-items: center;
   flex-direction: column;
 }
-.projects-details-main {
-  gap: 24px;
+.projects-details-container1 {
   width: 100%;
   height: auto;
   display: flex;
   padding: 32px 0 64px;
   max-width: var(--dl-size-size-maxwidth);
-  align-items: center;
   flex-shrink: 0;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: var(--dl-color-base-white);
+}
+.projects-details-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .projects-details-section {
   gap: 24px;
@@ -280,7 +285,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.projects-details-container1 {
+.projects-details-container2 {
   gap: 24px;
   width: 100%;
   display: flex;
@@ -376,7 +381,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.projects-details-container2 {
+.projects-details-container3 {
   gap: 24px;
   display: flex;
   padding: 0 16px;
@@ -473,7 +478,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.projects-details-container3 {
+.projects-details-container4 {
   gap: 24px;
   display: flex;
   padding: 0 16px;
@@ -532,6 +537,13 @@
   width: 100%;
   object-fit: cover;
 }
+.projects-details-sidebar {
+  width: 100%;
+  display: flex;
+  max-width: 360px;
+  align-items: center;
+  flex-direction: column;
+}
 .projects-details-section6 {
   gap: 24px;
   width: 100%;
@@ -540,7 +552,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.projects-details-container4 {
+.projects-details-container5 {
   gap: 24px;
   width: 100%;
   display: flex;
@@ -860,7 +872,7 @@
   .projects-details-section6 {
     align-self: stretch;
   }
-  .projects-details-container4 {
+  .projects-details-container5 {
     align-self: stretch;
   }
   .projects-details-loan {
@@ -925,6 +937,21 @@
 @media(max-width: 767px) {
   .projects-details-container {
     align-items: stretch;
+  }
+  .projects-details-pagewrapper {
+    position: relative;
+  }
+  .projects-details-container1 {
+    max-width: 100%;
+    flex-direction: column;
+  }
+  .projects-details-main {
+    align-self: stretch;
+    margin-bottom: 24px;
+  }
+  .projects-details-sidebar {
+    max-width: 100%;
+    align-self: stretch;
   }
 }
 @media(max-width: 479px) {
