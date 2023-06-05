@@ -11,14 +11,11 @@
   align-items: center;
   flex-direction: column;
 }
-.login-redirect-content {
-  gap: 12px;
-  display: flex;
-  padding: 20px 16px 0;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: var(--dl-color-base-white);
+.login-redirect-modal {
+  width: 100%;
+}
+.login-redirect-container1 {
+  width: auto;
 }
 .login-redirect-lock01 {
   top: 12px;
@@ -35,11 +32,10 @@
   flex-direction: column;
 }
 .login-redirect-text {
-  color: var(--dl-color-gray-9002);
+  color: var(--dl-color-gray-600);
   height: auto;
   align-self: stretch;
   text-align: left;
-  line-height: 28px;
 }
 .login-redirect-text01 {
   color: var(--dl-color-gray-600);
@@ -70,23 +66,6 @@
 .login-redirect-xclose {
   width: 24px;
   height: 24px;
-}
-.login-redirect-paddingbottom {
-  height: 20px;
-  display: flex;
-  z-index: 2;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
-}
-.login-redirect-content1 {
-  gap: 12px;
-  display: flex;
-  padding: 0 16px;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
 }
 .login-redirect-socialbutton {
   gap: 12px;
@@ -126,7 +105,7 @@
   height: 17px;
   align-self: stretch;
 }
-.login-redirect-content2 {
+.login-redirect-content {
   gap: 12px;
   display: flex;
   padding: 0 16px 16px;
@@ -176,9 +155,6 @@
   text-decoration: none;
 }
 @media(max-width: 991px) {
-  .login-redirect-frame-modalheader {
-    position: relative;
-  }
   .login-redirect-sv-loadinganim {
     align-self: center;
   }
@@ -193,11 +169,19 @@
   }
 }
 @media(max-width: 767px) {
+  .login-redirect-modal {
+    width: auto;
+  }
   .login-redirect-textandsupportingtext {
+    gap: 12px;
     position: relative;
   }
   .login-redirect-text {
     color: var(--dl-color-gray-900);
+    line-height: 20px;
+  }
+  .login-redirect-sv-loadinganim {
+    margin: 20px;
   }
   .login-redirect-text02 {
     align-self: flex-start;
