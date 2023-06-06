@@ -219,7 +219,7 @@
   align-items: stretch;
   flex-direction: column;
 }
-.signup-login {
+.signup-sign-up {
   width: 100%;
   max-width: 520px;
 }
@@ -312,7 +312,7 @@
   .signup-page-wapper {
     position: relative;
   }
-  .signup-login {
+  .signup-sign-up {
     width: auto;
   }
 }
@@ -320,7 +320,7 @@
   .signup-container {
     align-items: stretch;
   }
-  .signup-login {
+  .signup-sign-up {
     width: 100%;
   }
 }

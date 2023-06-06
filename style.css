@@ -1,4 +1,5 @@
 :root {
+  --dl-color-gray-25: rgba(251, 252, 252, 1);
   --dl-color-gray-50: rgba(248, 249, 251, 1);
   --dl-color-gray-100: #f2f4f8ff;
   --dl-color-gray-200: #eaecf0ff;
@@ -121,7 +122,7 @@
   gap: 32px;
   width: 100%;
   display: flex;
-  padding: 48px 16px;
+  padding: 48px 0;
   align-items: center;
   flex-shrink: 0;
   flex-direction: column;
@@ -325,6 +326,15 @@
 .primary:hover {
   background-color: var(--dl-color-primary-700);
 }
+.footer {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-base-white);
+}
 .TextlgSemibold {
   font-size: 18px;
   font-family: Inter;
@@ -337,6 +347,13 @@
   font-family: Inter;
   font-weight: 400px;
   line-height: 24px;
+}
+.TextxlRegular {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
 }
 .TextsmRegular {
   font-size: 14px;
@@ -408,6 +425,8 @@
   font-family: Inter;
   font-weight: 500;
 }
+
+
 @media(max-width: 991px) {
   .navbar_menu {
     width: 100%;
@@ -444,6 +463,12 @@
   }
   .navbar_menu-right {
     display: none;
+  }
+  .footer {
+    padding-top: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 48px;
   }
 }
 @media(max-width: 479px) {
