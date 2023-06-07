@@ -93,7 +93,7 @@
   text-align: center;
   line-height: 44px;
 }
-.create-project-step2-text02 {
+.create-project-step2-text03 {
   color: var(--dl-color-gray-600);
   height: auto;
   align-self: stretch;
@@ -134,6 +134,57 @@
   text-align: left;
   line-height: 20px;
 }
+.create-project-step2-input {
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: var(--dl-color-gray-300);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: var(--dl-color-base-white);
+}
+.create-project-step2-content {
+  gap: 8px;
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.create-project-step2-textinput {
+  width: 100%;
+  align-self: stretch;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.create-project-step2-dropdown {
+  gap: 4px;
+  display: flex;
+  padding: 10px 14px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+}
+.create-project-step2-text05 {
+  color: var(--dl-color-gray-900);
+  height: auto;
+  text-align: left;
+  font-stretch: normal;
+}
+.create-project-step2-text07 {
+  color: var(--dl-color-gray-600);
+  height: auto;
+  align-self: stretch;
+  text-align: right;
+  line-height: 20px;
+}
 .create-project-step2-inputfield1 {
   gap: 6px;
   display: flex;
@@ -148,179 +199,52 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.create-project-step2-text05 {
-  color: var(--dl-color-gray-700);
-  height: auto;
-  text-align: left;
-  line-height: 20px;
-}
-.create-project-step2-text06 {
-  color: var(--dl-color-gray-600);
-  height: auto;
-  align-self: stretch;
-  text-align: left;
-  line-height: 20px;
-}
-.create-project-step2-inputfield2 {
-  gap: 6px;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.create-project-step2-inputwithlabel2 {
-  gap: 6px;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
 .create-project-step2-text08 {
   color: var(--dl-color-gray-700);
   height: auto;
   text-align: left;
   line-height: 20px;
 }
-.create-project-step2-textareainputfield {
-  gap: 6px;
-  height: 160px;
-  display: flex;
+.create-project-step2-text09 {
+  color: var(--dl-color-gray-600);
+  height: auto;
   align-self: stretch;
-  align-items: flex-start;
-  flex-shrink: 0;
-  flex-direction: column;
+  text-align: right;
+  line-height: 20px;
 }
-.create-project-step2-inputwithlabel3 {
-  gap: 6px;
+.create-project-step2-container2 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
   display: flex;
-  flex-grow: 1;
-  align-self: stretch;
-  align-items: flex-start;
   flex-direction: column;
 }
 .create-project-step2-text10 {
   color: var(--dl-color-gray-700);
   height: auto;
-  text-align: left;
-  line-height: 20px;
-}
-.create-project-step2-inputwithlabel4 {
-  gap: 6px;
-  display: flex;
   align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.create-project-step2-text12 {
-  color: var(--dl-color-gray-700);
-  height: auto;
   text-align: left;
   line-height: 20px;
 }
-.create-project-step2-fileupload {
+.create-project-step2-numberandbadge {
   gap: 16px;
   display: flex;
   align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.create-project-step2-frame-fileuploadbase {
-  gap: 4px;
-  display: flex;
-  padding: 16px 24px;
-  align-self: stretch;
-  align-items: center;
-  border-color: rgba(234, 236, 240, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 12px;
-  flex-direction: column;
-  background-color: var(--dl-color-base-white);
-}
-.create-project-step2-content {
-  gap: 12px;
-  display: flex;
-  align-self: stretch;
-  align-items: center;
-  flex-direction: column;
-}
-.create-project-step2-featuredicon {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  position: relative;
-  align-items: center;
+  align-items: flex-end;
   flex-shrink: 0;
-  border-color: rgba(248, 249, 251, 1);
-  border-style: solid;
-  border-width: 6px;
-  border-radius: 28px;
-  justify-content: center;
-  background-color: var(--dl-color-gray-100);
 }
-.create-project-step2-uploadcloud02 {
-  width: 20px;
-  height: 20px;
-}
-.create-project-step2-textandsupportingtext1 {
-  gap: 4px;
-  display: flex;
-  align-self: stretch;
-  align-items: center;
-  flex-direction: column;
-}
-.create-project-step2-action {
-  gap: 4px;
-  display: flex;
-  align-self: stretch;
-  text-align: center;
-  align-items: flex-start;
-  flex-shrink: 0;
-  justify-content: center;
-}
-.create-project-step2-button {
-  gap: 8px;
-  display: flex;
-  overflow: hidden;
-  align-items: center;
-  justify-content: center;
+.create-project-step2-text12 {
+  color: var(--dl-color-gray-900);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 38px;
 }
 .create-project-step2-text14 {
-  color: var(--dl-color-primary-700);
-  height: auto;
-  text-align: left;
-  line-height: 20px;
-}
-.create-project-step2-text16 {
-  color: var(--dl-color-gray-600);
-  height: auto;
-  text-align: left;
-  line-height: 20px;
-}
-.create-project-step2-text18 {
   color: var(--dl-color-gray-600);
   height: auto;
   align-self: stretch;
-  text-align: center;
-  line-height: 18px;
-}
-.create-project-step2-inputfield3 {
-  gap: 6px;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.create-project-step2-inputwithlabel5 {
-  gap: 6px;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.create-project-step2-text20 {
-  color: var(--dl-color-gray-700);
-  height: auto;
   text-align: left;
   line-height: 20px;
 }
@@ -331,7 +255,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.create-project-step2-button1 {
+.create-project-step2-button {
   gap: 8px;
   display: flex;
   overflow: hidden;
@@ -346,13 +270,13 @@
   justify-content: center;
   background-color: var(--dl-color-primary-600);
 }
-.create-project-step2-text22 {
+.create-project-step2-text16 {
   color: var(--dl-color-base-white);
   height: auto;
   text-align: left;
   line-height: 24px;
 }
-.create-project-step2-button2 {
+.create-project-step2-button1 {
   gap: 8px;
   display: flex;
   overflow: hidden;
@@ -367,7 +291,7 @@
   justify-content: center;
   background-color: var(--dl-color-base-white);
 }
-.create-project-step2-text24 {
+.create-project-step2-text17 {
   color: var(--dl-color-gray-700);
   height: auto;
   text-align: left;
@@ -379,16 +303,6 @@
     max-width: auto;
     background-color: var(--dl-color-gray-25);
   }
-  .create-project-step2-featuredicon {
-    width: 40px;
-  }
-  .create-project-step2-uploadcloud02 {
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    margin: auto;
-  }
 }
 @media(max-width: 991px) {
   .create-project-step2-container {
@@ -398,5 +312,23 @@
 @media(max-width: 767px) {
   .create-project-step2-container {
     align-items: stretch;
+  }
+}
+@media(max-width: 479px) {
+  .create-project-step2-input {
+    width: 100%;
+    align-self: stretch;
+  }
+  .create-project-step2-content {
+    width: auto;
+    align-self: stretch;
+  }
+  .create-project-step2-textinput {
+    width: 100%;
+    align-self: stretch;
+  }
+  .create-project-step2-text05 {
+    width: 100%;
+    align-self: stretch;
   }
 }
