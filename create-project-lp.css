@@ -60,8 +60,11 @@
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
 }
-.header-navigation-logged-link {
+.header-navigation-logged-navlink {
   display: contents;
+}
+.header-navigation-logged-logo {
+  text-decoration: none;
 }
 .header-navigation-logged-image {
   width: 32px;

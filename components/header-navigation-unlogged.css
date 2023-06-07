@@ -60,8 +60,11 @@
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
 }
-.header-navigation-unlogged-link {
+.header-navigation-unlogged-navlink {
   display: contents;
+}
+.header-navigation-unlogged-logo {
+  text-decoration: none;
 }
 .header-navigation-unlogged-image {
   width: 32px;
@@ -121,6 +124,8 @@
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
+
+
 @media(max-width: 991px) {
   .header-navigation-unlogged-headernavigation {
     flex-direction: column;
