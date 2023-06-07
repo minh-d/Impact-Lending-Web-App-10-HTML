@@ -55,7 +55,7 @@
 
 
 
-.create-project-lp-container {
+.create-project-step3-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -63,88 +63,115 @@
   align-items: stretch;
   flex-direction: column;
 }
-.create-project-lp-main {
+.create-project-step3-main {
   width: 100%;
-  height: auto;
-  display: flex;
-  overflow: hidden;
-  align-self: stretch;
-  align-items: center;
-  flex-shrink: 0;
-  flex-direction: column;
   background-color: var(--dl-color-gray-25);
 }
-.create-project-lp-content {
+.create-project-step3-container1 {
   gap: 32px;
-  width: 100%;
   display: flex;
-  flex-grow: 1;
-  align-self: stretch;
-  align-items: flex-start;
+  max-width: 520px;
+  align-self: center;
+  align-items: center;
   flex-direction: column;
 }
-.create-project-lp-headingandsupportingtext {
-  gap: 16px;
-  width: 100%;
+.create-project-step3-textandsupportingtext {
+  gap: 8px;
   display: flex;
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
 }
-.create-project-lp-headingandbadge {
-  gap: 16px;
-  width: 100%;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.create-project-lp-text {
+.create-project-step3-text {
   color: var(--dl-color-gray-900);
-  width: 100%;
   height: auto;
   align-self: stretch;
   text-align: center;
   line-height: 44px;
 }
-.create-project-lp-text02 {
+.create-project-step3-text1 {
   color: var(--dl-color-gray-600);
-  width: 100%;
   height: auto;
   align-self: stretch;
   text-align: center;
-  line-height: 30px;
+  line-height: 28px;
 }
-.create-project-lp-actions {
-  gap: 12px;
+.create-project-step3-form {
+  gap: 32px;
   display: flex;
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
 }
-.create-project-lp-button {
-  gap: 8px;
+.create-project-step3-formfields {
+  gap: 24px;
   display: flex;
-  padding: 12px 20px;
-  overflow: hidden;
   align-self: stretch;
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
-  align-items: center;
-  flex-shrink: 0;
-  border-color: rgba(207, 212, 220, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 8px;
-  justify-content: center;
-  background-color: var(--dl-color-base-white);
+  align-items: flex-start;
+  flex-direction: column;
 }
-.create-project-lp-text06 {
+.create-project-step3-inputfield {
+  gap: 6px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.create-project-step3-inputwithlabel {
+  gap: 6px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.create-project-step3-text2 {
   color: var(--dl-color-gray-700);
   height: auto;
   text-align: left;
-  line-height: 24px;
+  line-height: 20px;
 }
-.create-project-lp-button1 {
+.create-project-step3-text3 {
+  color: var(--dl-color-gray-600);
+  height: auto;
+  align-self: stretch;
+  text-align: right;
+  line-height: 20px;
+}
+.create-project-step3-inputfield1 {
+  gap: 6px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.create-project-step3-inputwithlabel1 {
+  gap: 6px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.create-project-step3-text4 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.create-project-step3-text5 {
+  color: var(--dl-color-gray-600);
+  height: auto;
+  align-self: stretch;
+  text-align: right;
+  line-height: 20px;
+}
+.create-project-step3-actions {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.create-project-step3-button {
   gap: 8px;
   display: flex;
   padding: 12px 20px;
@@ -160,52 +187,48 @@
   justify-content: center;
   background-color: var(--dl-color-primary-600);
 }
-.create-project-lp-text08 {
+.create-project-step3-text6 {
   color: var(--dl-color-base-white);
   height: auto;
   text-align: left;
   line-height: 24px;
 }
-@media(max-width: 1600px) {
-  .create-project-lp-main {
-    max-width: 100%;
-    align-items: center;
-  }
-  .create-project-lp-content {
-    width: 100%;
-    align-self: stretch;
-  }
-  .create-project-lp-headingandsupportingtext {
-    width: 100%;
-    align-self: stretch;
-  }
-  .create-project-lp-headingandbadge {
-    width: 100%;
-    align-self: stretch;
-  }
-  .create-project-lp-text {
-    width: 100%;
-    align-self: stretch;
-    text-align: center;
-  }
-  .create-project-lp-text02 {
-    width: 100%;
-    align-self: stretch;
-    text-align: center;
-  }
+.create-project-step3-button1 {
+  gap: 8px;
+  display: flex;
+  padding: 12px 20px;
+  overflow: hidden;
+  align-self: stretch;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(207, 212, 220, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: var(--dl-color-base-white);
+}
+.create-project-step3-text7 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
 }
 @media(max-width: 1200px) {
-  .create-project-lp-main {
+  .create-project-step3-main {
+    width: 100%;
     max-width: auto;
+    background-color: var(--dl-color-gray-25);
   }
 }
 @media(max-width: 991px) {
-  .create-project-lp-page-wapper {
-    position: relative;
+  .create-project-step3-container {
+    align-items: stretch;
   }
 }
 @media(max-width: 767px) {
-  .create-project-lp-container {
+  .create-project-step3-container {
     align-items: stretch;
   }
 }

@@ -457,11 +457,16 @@
   padding-bottom: 0;
 }
 .create-project {
+  width: 100%;
   padding: 4rem 0;
   max-width: 480px;
 }
 .section-form {
+  gap: 2.5rem;
+  display: flex;
   padding: 0 1rem;
+  align-self: stretch;
+  flex-direction: column;
 }
 .project-item {
   width: 100%;
@@ -476,6 +481,11 @@
   border-radius: 0.725rem;
   flex-direction: column;
   text-decoration: none;
+}
+.nav-mobile {
+  display: flex;
+  margin-left: 0;
+  flex-direction: column;
 }
 .TextlgSemibold {
   font-size: 18px;
@@ -588,9 +598,6 @@
     width: 100%;
     margin-left: 24px;
   }
-  .login {
-    width: auto;
-  }
 }
 @media(max-width: 767px) {
   .button-secondary-gray {
@@ -615,11 +622,17 @@
   .footer_component {
     padding: 0 1rem;
   }
+  .navbar_menu-left {
+    flex-direction: column;
+  }
   .login {
     width: 100%;
   }
   .create-profile {
     width: 100%;
+  }
+  .nav-mobile {
+    display: none;
   }
 }
 @media(max-width: 479px) {
