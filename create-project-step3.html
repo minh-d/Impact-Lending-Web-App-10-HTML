@@ -50,11 +50,11 @@
       <div class="create-project-step3-container">
         <div class="page-wrapper">
           <header
-            class="header-navigation-logged-headernavigation navbar_component header-navigation-logged-root-class-name1"
+            class="header-navigation-logged-headernavigation navbar-component header-navigation-logged-root-class-name1"
           >
             <div
               data-role="Header"
-              class="header-navigation-logged-header navbar_container"
+              class="header-navigation-logged-header navbar-container"
             >
               <a
                 href="projects-search-logged.html"
@@ -71,12 +71,12 @@
                 </div>
               </a>
               <nav class="header-navigation-logged-nav navbar">
-                <div class="header-navigation-logged-left navbar_menu-left">
+                <div class="header-navigation-logged-left navbar-menu-left">
                   <a
                     href="https://example.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    class="TextmdSemibold navbar_link"
+                    class="TextmdSemibold navbar-link"
                   >
                     <span>My projects</span>
                   </a>
@@ -84,12 +84,12 @@
                     href="https://example.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    class="TextmdSemibold navbar_link"
+                    class="TextmdSemibold navbar-link"
                   >
                     <span>My loans</span>
                   </a>
                 </div>
-                <div class="navbar_menu-right">
+                <div class="navbar-menu-right">
                   <a
                     href="https://example.com"
                     target="_blank"
@@ -100,7 +100,7 @@
                   </a>
                 </div>
               </nav>
-              <div data-role="BurgerMenu" class="navbar_menu-button">
+              <div data-role="BurgerMenu" class="navbar-menu-button">
                 <div class="menu-icon">
                   <img
                     alt="menu02I763"
@@ -114,12 +114,13 @@
             <div
               class="create-project-step3-container1 create-project container"
             >
-              <div class="section_header">
+              <div class="section-header">
                 <div class="create-project-step3-textandsupportingtext">
                   <h1 class="create-project-step3-text DisplaymdSemibold">
-                    First, let’s get you set up
+                    <span>Now, let's define your funding goal</span>
+                    <br />
                   </h1>
-                  <span class="create-project-step3-text1 TextlgRegular">
+                  <span class="create-project-step3-text03 TextlgRegular">
                     Make it easy for people to learn about your project.
                   </span>
                 </div>
@@ -129,34 +130,66 @@
                   <div class="create-project-step3-formfields">
                     <div class="create-project-step3-inputfield">
                       <div class="create-project-step3-inputwithlabel">
-                        <span class="create-project-step3-text2 TextsmMedium">
+                        <span class="create-project-step3-text04 TextsmMedium">
                           Loan amount
                         </span>
-                        <input
-                          type="text"
-                          placeholder="Your project title"
-                          class="input TextmdRegular"
-                        />
-                        <span class="create-project-step3-text3 TextsmRegular">
+                        <div class="create-project-step3-input">
+                          <div class="create-project-step3-content">
+                            <input
+                              type="number"
+                              placeholder="1000"
+                              class="create-project-step3-textinput TextmdRegular"
+                            />
+                          </div>
+                          <div class="create-project-step3-dropdown">
+                            <span
+                              class="create-project-step3-text05 TextmdRegular"
+                            >
+                              <span>USDT</span>
+                            </span>
+                          </div>
+                        </div>
+                        <span class="create-project-step3-text07 TextsmRegular">
                           $ 4,001.79 USD
                         </span>
                       </div>
                     </div>
                     <div class="create-project-step3-inputfield1">
                       <div class="create-project-step3-inputwithlabel1">
-                        <span class="create-project-step3-text4 TextsmMedium">
-                          Subtitle
+                        <span class="create-project-step3-text08 TextsmMedium">
+                          Repayment period
                         </span>
                         <select class="input">
                           <option value="6 months">6 months</option>
                           <option value="12 months">12 months</option>
-                          <option value="18 months">18 months</option>
                           <option value="24 months">24 months</option>
+                          <option value="18 months">18 months</option>
                         </select>
                       </div>
-                      <span class="create-project-step3-text5 TextsmRegular">
+                      <span class="create-project-step3-text09 TextsmRegular">
                         Fixed 1.3% monthly interest rate
                       </span>
+                    </div>
+                    <div class="card">
+                      <div class="create-project-step3-container2">
+                        <span class="create-project-step3-text10 TextsmMedium">
+                          <span>Monthly cost for 12 months</span>
+                        </span>
+                        <div class="create-project-step3-numberandbadge">
+                          <span
+                            class="create-project-step3-text12 DisplaysmSemibold"
+                          >
+                            <span>368.64 USDT</span>
+                          </span>
+                        </div>
+                        <span class="create-project-step3-text14 TextsmRegular">
+                          <span>
+                            You are borrowing 4000 USDT over 12 months at 1.3%
+                            monthly interest rate with a total loan cost of
+                            4423.68 USDT.
+                          </span>
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -164,14 +197,14 @@
                   <button
                     class="create-project-step3-button TextmdSemibold button"
                   >
-                    <span class="create-project-step3-text6 TextmdSemibold">
+                    <span class="create-project-step3-text16 TextmdSemibold">
                       Connect a wallet
                     </span>
                   </button>
                   <button
                     class="create-project-step3-button1 button-secondary-gray"
                   >
-                    <span class="create-project-step3-text7 TextmdSemibold">
+                    <span class="create-project-step3-text17 TextmdSemibold">
                       <span>Cancel</span>
                     </span>
                   </button>
@@ -179,8 +212,8 @@
               </div>
             </div>
           </div>
-          <div class="footer-footer footer_component footer-root-class-name2">
-            <div class="footer_container">
+          <div class="footer-footer footer-component footer-root-class-name2">
+            <div class="footer-container">
               <p class="footer-text TextmdRegular">
                 © 2023 Socious Inc. All rights reserved.
               </p>

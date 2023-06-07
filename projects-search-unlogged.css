@@ -48,6 +48,8 @@
 
 
 
+
+
 .projects-search-unlogged-container {
   width: 100%;
   display: flex;
@@ -542,7 +544,6 @@
 .projects-search-unlogged-button {
   gap: 8px;
   display: flex;
-  padding: 10px 18px;
   overflow: hidden;
   align-self: stretch;
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
@@ -867,7 +868,6 @@
 .projects-search-unlogged-button1 {
   gap: 8px;
   display: flex;
-  padding: 10px 18px;
   overflow: hidden;
   align-self: stretch;
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
