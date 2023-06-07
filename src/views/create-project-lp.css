@@ -1,0 +1,152 @@
+.create-project-lp-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: stretch;
+  flex-direction: column;
+}
+.create-project-lp-main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-25);
+}
+.create-project-lp-content {
+  gap: 32px;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.create-project-lp-headingandsupportingtext {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.create-project-lp-headingandbadge {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.create-project-lp-text {
+  color: var(--dl-color-gray-900);
+  width: 100%;
+  height: auto;
+  align-self: stretch;
+  text-align: center;
+  line-height: 44px;
+}
+.create-project-lp-text02 {
+  color: var(--dl-color-gray-600);
+  width: 100%;
+  height: auto;
+  align-self: stretch;
+  text-align: center;
+  line-height: 30px;
+}
+.create-project-lp-actions {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.create-project-lp-button {
+  gap: 8px;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(207, 212, 220, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: var(--dl-color-base-white);
+}
+.create-project-lp-text06 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+.create-project-lp-button1 {
+  gap: 8px;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 74, 70, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: var(--dl-color-primary-600);
+}
+.create-project-lp-text08 {
+  color: var(--dl-color-base-white);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+@media(max-width: 1600px) {
+  .create-project-lp-main {
+    max-width: 100%;
+    align-items: center;
+  }
+  .create-project-lp-content {
+    width: 100%;
+    align-self: stretch;
+  }
+  .create-project-lp-headingandsupportingtext {
+    width: 100%;
+    align-self: stretch;
+  }
+  .create-project-lp-headingandbadge {
+    width: 100%;
+    align-self: stretch;
+  }
+  .create-project-lp-text {
+    width: 100%;
+    align-self: stretch;
+    text-align: center;
+  }
+  .create-project-lp-text02 {
+    width: 100%;
+    align-self: stretch;
+    text-align: center;
+  }
+}
+@media(max-width: 1200px) {
+  .create-project-lp-main {
+    max-width: auto;
+  }
+}
+@media(max-width: 991px) {
+  .create-project-lp-page-wapper {
+    position: relative;
+  }
+}
+@media(max-width: 767px) {
+  .create-project-lp-container {
+    align-items: stretch;
+  }
+}

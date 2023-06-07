@@ -1,0 +1,577 @@
+.project-details-logged-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.project-details-logged-main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--dl-color-base-white);
+}
+.project-details-logged-button {
+  gap: 8px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.project-details-logged-arrowleft {
+  width: 20px;
+  height: 20px;
+}
+.project-details-logged-text {
+  color: var(--dl-color-primary-700);
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.project-details-logged-content1 {
+  gap: 20px;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-details-logged-textandsupportingtext {
+  gap: 4px;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-details-logged-text02 {
+  color: var(--dl-color-gray-900);
+  width: 100%;
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 32px;
+}
+.project-details-logged-text04 {
+  color: var(--dl-color-gray-600);
+  width: 100%;
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 24px;
+}
+.project-details-logged-location {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+.project-details-logged-markerpin01 {
+  width: 20px;
+  height: 20px;
+}
+.project-details-logged-text06 {
+  color: var(--dl-color-gray-600);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+.project-details-logged-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.project-details-logged-textandsupportingtext1 {
+  gap: 4px;
+  width: auto;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.project-details-logged-text08 {
+  color: var(--dl-color-gray-900);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 28px;
+}
+.project-details-logged-shieldtick {
+  width: 12px;
+  height: 12px;
+}
+.project-details-logged-text09 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  font-style: normal;
+  text-align: center;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.project-details-logged-container3 {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-details-logged-text11 {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-details-logged-text12 {
+  color: var(--dl-color-gray-900);
+  width: 100%;
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 30px;
+}
+.project-details-logged-text14 {
+  color: var(--dl-color-gray-600);
+  width: 100%;
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 24px;
+}
+.project-details-logged-photos {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-details-logged-image1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+}
+.project-details-logged-image2 {
+  width: 100%;
+  object-fit: cover;
+}
+.project-details-logged-container4 {
+  gap: 24px;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-details-logged-content2 {
+  gap: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 20px 16px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-details-logged-details {
+  gap: 16px;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-details-logged-detailswrap {
+  gap: 12px;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.project-details-logged-textandsupportingtext2 {
+  width: auto;
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.project-details-logged-text16 {
+  color: var(--dl-color-gray-900);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 28px;
+}
+.project-details-logged-textwrap {
+  display: flex;
+  padding: 0 0 2px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-details-logged-text18 {
+  color: var(--dl-color-gray-600);
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.project-details-logged-textandsupportingtext3 {
+  width: auto;
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-end;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.project-details-logged-text20 {
+  color: var(--dl-color-gray-900);
+  height: auto;
+  align-self: stretch;
+  text-align: right;
+  line-height: 28px;
+}
+.project-details-logged-textwrap1 {
+  display: flex;
+  padding: 0 0 2px;
+  align-self: stretch;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.project-details-logged-text22 {
+  color: var(--dl-color-gray-600);
+  height: auto;
+  text-align: right;
+  line-height: 20px;
+}
+.project-details-logged-progress {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-details-logged-progressbar {
+  gap: 12px;
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.project-details-logged-progressbar1 {
+  width: 100%;
+  height: 8px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: var(--dl-color-gray-200);
+}
+.project-details-logged-progress1 {
+  width: 20%;
+  height: 8px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  max-width: 20%;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: var(--dl-color-primary-600);
+}
+.project-details-logged-detailswrap1 {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.project-details-logged-textandicon {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.project-details-logged-text24 {
+  color: var(--dl-color-gray-600);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 20px;
+}
+.project-details-logged-textandicon1 {
+  gap: 8px;
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+.project-details-logged-text26 {
+  color: var(--dl-color-gray-600);
+  height: auto;
+  flex-grow: 1;
+  text-align: right;
+  line-height: 20px;
+}
+.project-details-logged-detailswrap2 {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.project-details-logged-textandicon2 {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+.project-details-logged-clockfastforward {
+  width: 20px;
+  height: 20px;
+}
+.project-details-logged-text28 {
+  color: var(--dl-color-gray-600);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+.project-details-logged-textandicon3 {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+.project-details-logged-trendup01 {
+  width: 20px;
+  height: 20px;
+}
+.project-details-logged-text29 {
+  color: var(--dl-color-gray-600);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+.project-details-logged-inputfield {
+  gap: 6px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-details-logged-inputwithlabel {
+  gap: 6px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-details-logged-text30 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.project-details-logged-input {
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: var(--dl-color-gray-300);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: var(--dl-color-base-white);
+}
+.project-details-logged-content3 {
+  gap: 8px;
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.project-details-logged-textinput {
+  width: 100%;
+  align-self: stretch;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.project-details-logged-dropdown {
+  gap: 4px;
+  display: flex;
+  padding: 10px 14px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+}
+.project-details-logged-text32 {
+  color: var(--dl-color-gray-900);
+  height: auto;
+  text-align: left;
+  font-stretch: normal;
+}
+.project-details-logged-actions {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-details-logged-button1 {
+  gap: 8px;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 74, 70, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: var(--dl-color-primary-600);
+}
+.project-details-logged-text34 {
+  color: var(--dl-color-base-white);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+@media(max-width: 1600px) {
+  .project-details-logged-container4 {
+    align-self: stretch;
+  }
+  .project-details-logged-content2 {
+    align-self: stretch;
+  }
+  .project-details-logged-details {
+    align-self: stretch;
+  }
+  .project-details-logged-detailswrap {
+    align-self: stretch;
+  }
+  .project-details-logged-textandsupportingtext2 {
+    width: auto;
+    align-self: stretch;
+  }
+  .project-details-logged-text16 {
+    width: 100%;
+    align-self: stretch;
+  }
+  .project-details-logged-textwrap {
+    width: 100%;
+    align-self: stretch;
+  }
+  .project-details-logged-text18 {
+    width: 100%;
+    align-self: stretch;
+  }
+  .project-details-logged-progress {
+    align-self: stretch;
+  }
+  .project-details-logged-progressbar {
+    align-self: stretch;
+  }
+  .project-details-logged-progressbar1 {
+    align-self: stretch;
+    background-color: var(--dl-color-gray-200);
+  }
+  .project-details-logged-progress1 {
+    width: 20%;
+    max-width: 20%;
+    align-self: stretch;
+    border-color: var(--dl-color-primary-600);
+    border-style: solid;
+    border-width: 0px;
+    background-color: var(--dl-color-primary-600);
+  }
+  .project-details-logged-detailswrap1 {
+    width: 100%;
+    align-self: stretch;
+  }
+  .project-details-logged-button1 {
+    width: 100%;
+    align-self: stretch;
+  }
+  .project-details-logged-text34 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .project-details-logged-container {
+    align-items: stretch;
+  }
+  .project-details-logged-pagewrapper {
+    position: relative;
+  }
+  .project-details-logged-main {
+    max-width: 100%;
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .project-details-logged-textandsupportingtext1 {
+    width: auto;
+    align-self: stretch;
+  }
+  .project-details-logged-text08 {
+    width: 100%;
+  }
+  .project-details-logged-inputfield {
+    width: 100%;
+    align-self: stretch;
+  }
+  .project-details-logged-inputwithlabel {
+    width: 100%;
+    align-self: stretch;
+  }
+  .project-details-logged-text30 {
+    width: 100%;
+    align-self: stretch;
+  }
+  .project-details-logged-input {
+    width: 100%;
+    align-self: stretch;
+  }
+  .project-details-logged-content3 {
+    width: auto;
+    align-self: stretch;
+  }
+  .project-details-logged-textinput {
+    width: 100%;
+    align-self: stretch;
+  }
+  .project-details-logged-text32 {
+    width: 100%;
+    align-self: stretch;
+  }
+}

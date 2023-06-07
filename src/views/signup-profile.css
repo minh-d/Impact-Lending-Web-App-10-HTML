@@ -1,0 +1,209 @@
+.signup-profile-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: stretch;
+  flex-direction: column;
+}
+.signup-profile-container1 {
+  gap: 32px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.signup-profile-header {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.signup-profile-textandsupportingtext {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.signup-profile-text {
+  color: rgba(15, 23, 40, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: center;
+  line-height: 44px;
+}
+.signup-profile-text01 {
+  color: rgba(71, 84, 102, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: center;
+  font-stretch: normal;
+}
+.signup-profile-section {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  border-radius: 12px;
+  flex-direction: column;
+}
+.signup-profile-form {
+  gap: 20px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.signup-profile-inputfield {
+  gap: 6px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.signup-profile-inputwithlabel {
+  gap: 6px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.signup-profile-text03 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.signup-profile-textinput {
+  align-self: stretch;
+}
+.signup-profile-inputfield1 {
+  gap: 6px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.signup-profile-inputwithlabel1 {
+  gap: 6px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.signup-profile-text05 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.signup-profile-textinput1 {
+  align-self: stretch;
+}
+.signup-profile-inputfield2 {
+  gap: 6px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.signup-profile-inputwithlabel2 {
+  gap: 6px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.signup-profile-text07 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.signup-profile-textinput2 {
+  align-self: stretch;
+}
+.signup-profile-inputdropdown {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.signup-profile-inputwithlabel3 {
+  gap: 6px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.signup-profile-text09 {
+  color: var(--dl-color-gray-700);
+  height: auto;
+  text-align: left;
+  line-height: 20px;
+}
+.signup-profile-select {
+  align-self: stretch;
+}
+.signup-profile-actions {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.signup-profile-button {
+  gap: 8px;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(0, 74, 70, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  text-decoration: none;
+  background-color: var(--dl-color-primary-600);
+}
+.signup-profile-text11 {
+  color: var(--dl-color-base-white);
+  height: auto;
+  text-align: left;
+  line-height: 24px;
+}
+@media(max-width: 991px) {
+  .signup-profile-container {
+    align-items: stretch;
+  }
+  .signup-profile-text01 {
+    color: var(--dl-color-gray-600);
+  }
+  .signup-profile-text03 {
+    color: var(--dl-color-gray-700);
+  }
+  .signup-profile-text05 {
+    color: var(--dl-color-gray-700);
+  }
+  .signup-profile-text07 {
+    color: var(--dl-color-gray-700);
+  }
+  .signup-profile-text09 {
+    color: var(--dl-color-gray-700);
+  }
+}
+@media(max-width: 767px) {
+  .signup-profile-container {
+    align-items: stretch;
+  }
+  .signup-profile-text {
+    color: var(--dl-color-gray-900);
+  }
+  .signup-profile-text01 {
+    color: var(--dl-color-gray-600);
+  }
+}

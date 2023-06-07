@@ -1,0 +1,16 @@
+.footer-footer {
+  background-color: transparent;
+}
+.footer-text {
+  color: var(--dl-color-gray-600);
+  width: auto;
+  height: auto;
+  align-self: stretch;
+  text-align: center;
+  font-stretch: normal;
+}
+
+
+
+
+
