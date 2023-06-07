@@ -10,10 +10,6 @@
   line-height: 24px;
   font-stretch: normal;
 }
-.primary-button-root-class-name {
-  width: auto;
-  align-self: stretch;
-}
 .primary-button-root-class-name1 {
   width: auto;
   align-self: stretch;
@@ -25,10 +21,6 @@
 @media(max-width: 1600px) {
   .primary-button-text {
     text-align: center;
-  }
-  .primary-button-root-class-name {
-    width: 100%;
-    align-self: stretch;
   }
   .primary-button-root-class-name2 {
     width: 100%;

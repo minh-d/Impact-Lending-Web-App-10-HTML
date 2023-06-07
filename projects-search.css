@@ -170,20 +170,6 @@
   width: 100%;
   max-width: var(--dl-size-size-maxwidth);
 }
-.projects-search-section {
-  gap: 24px;
-  width: 100%;
-  display: flex;
-  align-self: stretch;
-  flex-direction: column;
-}
-.projects-search-container1 {
-  gap: 24px;
-  width: 100%;
-  display: flex;
-  align-self: stretch;
-  flex-direction: column;
-}
 .projects-search-content {
   gap: 16px;
   width: 100%;

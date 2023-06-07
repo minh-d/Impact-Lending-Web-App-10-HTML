@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="english">
   <head>
-    <title>signup - exported project</title>
-    <meta property="og:title" content="signup - exported project" />
+    <title>signup-profile - exported project</title>
+    <meta property="og:title" content="signup-profile - exported project" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -42,10 +42,10 @@
   </head>
   <body>
     <div>
-      <link href="./signup.css" rel="stylesheet" />
+      <link href="./signup-profile.css" rel="stylesheet" />
 
-      <div class="signup-container">
-        <div class="page-wrapper signup-page-wapper">
+      <div class="signup-profile-container">
+        <div class="page-wrapper">
           <header
             class="header-navigation-unlogged-headernavigation navbar_component"
           >
@@ -171,35 +171,91 @@
               </div>
             </div>
           </header>
-          <main class="login main-wrapper">
-            <section class="section_header">
-              <div class="signup-textandsupportingtext">
-                <span class="signup-text DisplayxsSemibold">
-                  Create your account
-                </span>
-                <span class="signup-text1 TextmdRegular">
-                  Join a community of changemakers
-                </span>
-              </div>
-            </section>
-            <section class="signup-actions">
-              <a
-                href="https://socious.io/"
-                class="signup-button TextmdSemibold button"
-              >
-                <span class="signup-text2 TextmdSemibold">Get started</span>
-              </a>
-              <div class="signup-footerlinks">
-                <div class="signup-row">
-                  <span class="signup-text3 TextsmRegular">
-                    Have already an account?
+          <main class="main-wrapper create-profile">
+            <div class="signup-profile-container1 container">
+              <section class="signup-profile-header">
+                <div class="signup-profile-textandsupportingtext">
+                  <span class="signup-profile-text DisplaymdSemibold">
+                    Tell us about yourself
                   </span>
-                  <a href="https://socious.io/" class="signup-button1">
-                    <span class="TextsmSemibold button-link">Sign in</span>
+                  <span class="signup-profile-text01 TextmdRegular">
+                    <span>
+                      This information is used to get started. It does not leave
+                      our systems and isn’t shared with anyone outside our
+                      platform.
+                    </span>
+                  </span>
+                </div>
+              </section>
+              <div class="signup-profile-section">
+                <div class="signup-profile-form">
+                  <div class="signup-profile-inputfield">
+                    <div class="signup-profile-inputwithlabel">
+                      <span class="signup-profile-text03 TextsmMedium">
+                        <span>Username</span>
+                      </span>
+                      <input
+                        type="text"
+                        placeholder="@username"
+                        autocomplete="username"
+                        class="signup-profile-textinput input TextmdRegular"
+                      />
+                    </div>
+                  </div>
+                  <div class="signup-profile-inputfield1">
+                    <div class="signup-profile-inputwithlabel1">
+                      <span class="signup-profile-text05 TextsmMedium">
+                        <span>First Name (optional)</span>
+                      </span>
+                      <input
+                        type="text"
+                        placeholder="Enter your first name"
+                        autocomplete="given-name"
+                        class="signup-profile-textinput1 input TextmdRegular"
+                      />
+                    </div>
+                  </div>
+                  <div class="signup-profile-inputfield2">
+                    <div class="signup-profile-inputwithlabel2">
+                      <span class="signup-profile-text07 TextsmMedium">
+                        <span>Last Name (optional)</span>
+                      </span>
+                      <input
+                        type="text"
+                        placeholder="Enter your last name"
+                        autocomplete="family-name"
+                        class="signup-profile-textinput2 TextmdRegular input"
+                      />
+                    </div>
+                  </div>
+                  <div class="signup-profile-inputdropdown">
+                    <div class="signup-profile-inputwithlabel3">
+                      <span class="signup-profile-text09 TextsmMedium">
+                        <span>Location (optional)</span>
+                      </span>
+                      <select
+                        autocomplete="country"
+                        class="signup-profile-select input"
+                      >
+                        <option value="Country" selected="">Country</option>
+                        <option value="Japan">Japan</option>
+                        <option value="New Option">New Option</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="signup-profile-actions">
+                  <a
+                    href="https://socious.io/"
+                    class="signup-profile-button TextmdSemibold button"
+                  >
+                    <span class="signup-profile-text11 TextmdSemibold">
+                      Continue
+                    </span>
                   </a>
                 </div>
               </div>
-            </section>
+            </div>
           </main>
         </div>
       </div>
