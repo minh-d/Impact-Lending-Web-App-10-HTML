@@ -1,28 +1,13 @@
 .footer-footer {
-  margin: 0px;
-}
-.footer-container {
-  width: 100%;
-  position: relative;
-  max-width: var(--dl-size-size-maxwidth);
-  align-self: center;
-  padding-top: 48px;
-  border-color: var(--dl-color-gray-200);
-  border-width: 1px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 48px;
-  border-top-width: 1px;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 0px;
+  background-color: transparent;
 }
 .footer-text {
-  color: rgba(102, 112, 132, 1);
-  width: 100%;
+  color: var(--dl-color-gray-600);
+  width: auto;
   height: auto;
   align-self: stretch;
   text-align: center;
   font-stretch: normal;
 }
+
 

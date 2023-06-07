@@ -1,96 +1,71 @@
 <div>
   <link href="./header-navigation-logged.css" rel="stylesheet" />
   <header class="header-navigation-logged-headernavigation navbar_component">
-    <header
-      data-thq="thq-navbar"
-      class="header-navigation-logged-content navbar_container"
+    <div
+      data-role="Header"
+      class="header-navigation-logged-header navbar_container"
     >
-      <div class="header-navigation-logged-logo">
-        <div class="header-navigation-logged-logowrap">
-          <div class="header-navigation-logged-logomark">
-            <a href="https://socious.io" class="header-navigation-logged-link">
-              <img
-                alt="ContentI763"
-                src="public/external/contenti763-n5sa.svg"
-                class="header-navigation-logged-image"
-              />
-            </a>
+      <a
+        href="https://socious.io"
+        target="_blank"
+        rel="noreferrer noopener"
+        class="header-navigation-logged-link"
+      >
+        <div class="logo">
+          <div class="logomark">
+            <img
+              alt="ContentI763"
+              src="public/external/contenti763-n5sa.svg"
+              class="header-navigation-logged-image"
+            />
           </div>
         </div>
-      </div>
-      <div
-        data-thq="thq-navbar-nav"
-        data-role="Nav"
-        class="header-navigation-logged-desktop-menu navbar_menu"
-      >
-        <nav
-          data-thq="thq-navbar-nav-links"
-          data-role="Nav"
-          class="header-navigation-logged-nav navbar"
-        >
+      </a>
+      <nav class="header-navigation-logged-nav navbar">
+        <div class="header-navigation-logged-left navbar_menu-left">
           <a
-            href="https://socious.io"
-            class="header-navigation-logged-link1 TextmdSemibold navbar_link"
+            href="https://example.com"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="TextmdSemibold navbar_link"
           >
-            My projects
+            <span>My projects</span>
           </a>
           <a
-            href="https://socious.io"
-            class="header-navigation-logged-link2 TextmdSemibold navbar_link"
+            href="https://example.com"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="TextmdSemibold navbar_link"
           >
-            My loans
+            <span>My loans</span>
           </a>
-        </nav>
+        </div>
+        <div class="navbar_menu-right">
+          <a
+            href="https://example.com"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="TextmdSemibold button"
+          >
+            <span>Start a project</span>
+          </a>
+        </div>
+      </nav>
+      <div data-role="BurgerMenu" class="navbar_menu-button">
+        <div class="menu-icon">
+          <img alt="menu02I763" src="public/external/menu02i763-3oc9.svg" />
+        </div>
       </div>
-      <div
-        data-thq="thq-navbar-btn-group"
-        class="header-navigation-logged-btn-group navbar_menu-right"
-      >
-        <a
-          href="https://socious.io/"
-          class="header-navigation-logged-register TextmdSemibold button"
-        >
-          Start a project
-        </a>
-      </div>
-      <div
-        data-thq="thq-burger-menu"
-        class="header-navigation-logged-nav-menu-button navbar_menu-button"
-      >
-        <img
-          alt="menu02I763"
-          src="public/external/menu02i763-3oc9.svg"
-          class="menu-icon"
-        />
-      </div>
-      <div
-        data-thq="thq-mobile-menu"
-        class="header-navigation-logged-mobile-menu"
-      >
-        <div
-          data-thq="thq-mobile-menu-nav"
-          data-role="Nav"
-          class="header-navigation-logged-nav1"
-        >
+      <div data-role="MobileMenu" class="header-navigation-logged-mobile-menu">
+        <div class="header-navigation-logged-nav1">
           <div class="header-navigation-logged-container">
-            <div class="header-navigation-logged-logo1">
-              <div class="header-navigation-logged-logowrap1">
-                <div class="header-navigation-logged-logomark1">
-                  <a
-                    href="https://socious.io"
-                    class="header-navigation-logged-link3"
-                  >
-                    <img
-                      alt="ContentI763"
-                      src="public/external/contenti763-n5sa.svg"
-                      class="header-navigation-logged-image1"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
+            <img
+              alt="image"
+              src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
+              class="header-navigation-logged-image2"
+            />
             <div
-              data-thq="thq-close-menu"
+              data-role="CloseMobileMenu"
               class="header-navigation-logged-menu-close"
             >
               <svg
@@ -104,32 +79,16 @@
             </div>
           </div>
           <nav
-            data-thq="thq-mobile-menu-nav-links"
-            data-role="Nav"
-            class="header-navigation-logged-nav2 navbar"
+            class="navigation-links51-nav navigation-links51-root-class-name11"
           >
-            <a
-              href="https://socious.io"
-              class="header-navigation-logged-link4 TextmdSemibold navbar_link"
-            >
-              My projects
-            </a>
-            <a
-              href="https://socious.io"
-              class="header-navigation-logged-link5 TextmdSemibold navbar_link"
-            >
-              My loans
-            </a>
+            <span class="navigation-links51-text"><span>About</span></span>
+            <span class="navigation-links51-text1"><span>Features</span></span>
+            <span class="navigation-links51-text2"><span>Pricing</span></span>
+            <span class="navigation-links51-text3"><span>Team</span></span>
+            <span class="navigation-links51-text4"><span>Blog</span></span>
           </nav>
-          <div class="header-navigation-logged-btn-group1">
-            <button
-              class="header-navigation-logged-register1 TextmdSemibold button"
-            >
-              Start a project
-            </button>
-          </div>
         </div>
-        <div class="header-navigation-logged-icon-group">
+        <div>
           <svg
             viewBox="0 0 950.8571428571428 1024"
             class="header-navigation-logged-icon3"
@@ -154,6 +113,6 @@
           </svg>
         </div>
       </div>
-    </header>
+    </div>
   </header>
 </div>
