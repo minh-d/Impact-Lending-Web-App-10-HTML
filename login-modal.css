@@ -38,19 +38,6 @@
   text-align: left;
   line-height: 28px;
 }
-.login-modal-alert {
-  gap: 12px;
-  display: flex;
-  padding: 16px;
-  align-self: stretch;
-  align-items: flex-start;
-  border-color: rgba(0, 74, 70, 0.6000000238418579);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 12px;
-  flex-direction: column;
-  background-color: var(--dl-color-primary-25);
-}
 .login-modal-textandsupportingtext1 {
   gap: 8px;
   display: flex;
