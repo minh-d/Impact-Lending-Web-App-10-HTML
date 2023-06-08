@@ -30,6 +30,7 @@
   --dl-color-success-500: #32A94C;
   --dl-color-success-700: #4CC366;
   --dl-size-size-xxlarge: 288px;
+  --dl-color-burgundy-600: rgba(176, 48, 70, 1);
   --dl-size-size-maxwidth: 1400px;
   --dl-radius-radius-round: 50%;
   --dl-space-space-halfunit: 8px;
@@ -48,6 +49,7 @@
   cursor: pointer;
   display: inline-block;
   padding: 0.725rem 1.5rem;
+  align-self: stretch;
   line-height: 24px;
   border-color: var(--dl-color-primary-600);
   border-width: 1px;

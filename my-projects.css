@@ -681,19 +681,8 @@
   flex-direction: column;
 }
 .my-projects-button1 {
-  gap: 8px;
-  display: flex;
-  overflow: hidden;
-  align-self: stretch;
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
-  align-items: center;
-  flex-shrink: 0;
-  border-color: rgba(0, 74, 70, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 8px;
-  justify-content: center;
-  background-color: var(--dl-color-primary-600);
+  border-color: var(--dl-color-burgundy-600);
+  background-color: var(--dl-color-burgundy-600);
 }
 .my-projects-text32 {
   color: var(--dl-color-base-white);
@@ -734,20 +723,20 @@
   width: 20px;
   height: 20px;
 }
-.my-projects-text33 {
+.my-projects-text34 {
   color: var(--dl-color-gray-700);
   height: auto;
   text-align: left;
   font-stretch: normal;
   text-decoration: none;
 }
-.my-projects-text34 {
+.my-projects-text35 {
   font-weight: 400;
 }
-.my-projects-text35 {
+.my-projects-text36 {
   font-weight: 500;
 }
-.my-projects-text36 {
+.my-projects-text37 {
   font-weight: 400;
 }
 .my-projects-button3 {
@@ -898,7 +887,7 @@
     border-color: var(--dl-color-primary-600);
     border-style: solid;
     border-width: 0px;
-    background-color: var(--dl-color-primary-600);
+    background-color: var(--dl-color-burgundy-600);
   }
   .my-projects-detailswrap4 {
     width: 100%;
@@ -915,13 +904,6 @@
   .my-projects-text30 {
     width: 100%;
     align-self: stretch;
-  }
-  .my-projects-button1 {
-    width: 100%;
-    align-self: stretch;
-  }
-  .my-projects-text32 {
-    text-align: center;
   }
 }
 @media(max-width: 991px) {
@@ -942,6 +924,9 @@
     left: 0px;
     width: 100%;
     position: absolute;
+  }
+  .my-projects-progress3 {
+    background-color: var(--dl-color-burgundy-600);
   }
 }
 @media(max-width: 767px) {
