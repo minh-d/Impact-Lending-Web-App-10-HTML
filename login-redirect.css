@@ -109,26 +109,6 @@
   line-height: 24px;
   font-stretch: normal;
 }
-.login-redirect-frame-modalactions1 {
-  display: flex;
-  padding: 24px 0 0;
-  align-self: stretch;
-  align-items: center;
-  border-color: var(--dl-color-gray-200);
-  border-width: 1px;
-  flex-direction: column;
-  border-left-width: 0px;
-  border-right-width: 0px;
-  border-bottom-width: 0px;
-}
-.login-redirect-content {
-  gap: 12px;
-  display: flex;
-  padding: 0 16px 16px;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
 .login-redirect-wrap {
   gap: 12px;
   display: flex;
