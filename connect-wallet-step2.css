@@ -31,6 +31,7 @@
 
 
 
+
 @media(max-width: 991px) {
   .header-navigation-logged-headernavigation {
     flex-direction: column;
@@ -53,6 +54,7 @@
   text-align: center;
   font-stretch: normal;
 }
+
 
 
 

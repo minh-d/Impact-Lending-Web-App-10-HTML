@@ -61,7 +61,7 @@
 
 
 
-.connect-wallet-step1-container {
+.project-created-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -69,11 +69,11 @@
   align-items: stretch;
   flex-direction: column;
 }
-.connect-wallet-step1-main {
+.project-created-main {
   width: 100%;
   background-color: var(--dl-color-gray-25);
 }
-.connect-wallet-step1-container1 {
+.project-created-container1 {
   gap: 32px;
   display: flex;
   max-width: 520px;
@@ -81,137 +81,132 @@
   align-items: center;
   flex-direction: column;
 }
-.connect-wallet-step1-textandsupportingtext {
-  gap: 8px;
+.project-created-header {
+  gap: 64px;
   display: flex;
+  padding: 64px 0;
+  overflow: hidden;
   align-self: stretch;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
-.connect-wallet-step1-text {
+.project-created-container2 {
+  display: flex;
+  padding: 0 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.project-created-content {
+  gap: 32px;
+  width: 343px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.project-created-headingandsupportingtext {
+  gap: 16px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.project-created-headingandsubheading {
+  gap: 12px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.project-created-text {
   color: var(--dl-color-gray-900);
   height: auto;
   align-self: stretch;
   text-align: center;
   line-height: 44px;
 }
-.connect-wallet-step1-text1 {
+.project-created-text2 {
   color: var(--dl-color-gray-600);
   height: auto;
   align-self: stretch;
   text-align: center;
   line-height: 28px;
 }
-.connect-wallet-step1-form {
+.project-created-section {
+  gap: 48px;
+  display: flex;
+  padding: 0 0 64px;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.project-created-container3 {
+  gap: 48px;
+  display: flex;
+  padding: 0 16px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.project-created-content1 {
+  gap: 48px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.project-created-form {
   gap: 32px;
   display: flex;
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
 }
-.connect-wallet-step1-formfields {
-  gap: 24px;
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.connect-wallet-step1-actions {
+.project-created-actions {
   gap: 16px;
   display: flex;
   align-self: stretch;
   align-items: flex-start;
   flex-direction: column;
 }
-.connect-wallet-step1-walletbutton {
-  gap: 12px;
-  display: flex;
-  overflow: hidden;
-  align-self: stretch;
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
-  align-items: center;
-  flex-shrink: 0;
-  border-color: rgba(207, 212, 220, 1);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 8px;
-  justify-content: center;
-  background-color: var(--dl-color-base-white);
-}
-.connect-wallet-step1-walleticon {
-  width: 24px;
-  height: 24px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-.connect-wallet-step1-group {
-  top: 0px;
-  left: 0px;
-  width: 24px;
-  height: 24px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.connect-wallet-step1-vector {
-  top: 0px;
-  left: 0px;
-  width: 24px;
-  height: 24px;
-  position: absolute;
-}
-.connect-wallet-step1-vector1 {
-  top: 7.0478515625px;
-  left: 4.107421875px;
-  width: 16px;
-  height: 10px;
-  position: absolute;
-}
-.connect-wallet-step1-text2 {
-  color: var(--dl-color-gray-700);
-  height: auto;
-  text-align: left;
-  line-height: 24px;
-}
-.connect-wallet-step1-button {
+.project-created-button {
   gap: 8px;
   display: flex;
+  padding: 12px 20px;
   overflow: hidden;
   align-self: stretch;
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05000000074505806) ;
   align-items: center;
   flex-shrink: 0;
-  border-color: rgba(207, 212, 220, 1);
+  border-color: rgba(0, 74, 70, 1);
   border-style: solid;
   border-width: 1px;
   border-radius: 8px;
   justify-content: center;
-  background-color: var(--dl-color-base-white);
+  background-color: var(--dl-color-primary-600);
 }
-.connect-wallet-step1-text4 {
-  color: var(--dl-color-gray-700);
+.project-created-text4 {
+  color: var(--dl-color-base-white);
   height: auto;
   text-align: left;
   line-height: 24px;
 }
 @media(max-width: 1200px) {
-  .connect-wallet-step1-main {
+  .project-created-main {
     width: 100%;
     max-width: auto;
     background-color: var(--dl-color-gray-25);
   }
 }
 @media(max-width: 991px) {
-  .connect-wallet-step1-container {
+  .project-created-container {
     align-items: stretch;
   }
 }
 @media(max-width: 767px) {
-  .connect-wallet-step1-container {
+  .project-created-container {
     align-items: stretch;
   }
 }
